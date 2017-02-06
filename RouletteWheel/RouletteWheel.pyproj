@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fa4a626c-fde6-4f80-a6cb-78d669482b42</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>roultette.py</StartupFile>
+    <StartupFile>roulette.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="roultette.py" />
+    <Compile Include="..\roultette.py">
+      <Link>..\..\..\..\..\..\..\AppData\Local\Temporary Projects\PythonApplication1\roultette.py</Link>
+    </Compile>
+    <Compile Include="roulette.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
